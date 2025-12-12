@@ -1,4 +1,111 @@
-img {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    font-family: "Noto Sans", sans-serif !important;
+    background-color: #fcf7f3 !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-container a:hover {
+    color: #6BC1C7;
+    border-radius: 50px;
+}
+
+.header hr {
+    color: green;
+    background-color: green;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.hamburger-btn {
+    font-size: 30px;
+    border-style: none;
+    margin-top: 10px;
+    background-color: #fcf7f3;
+    transition: transform 0.3s ease;
+}
+
+.hamburger-btn.rotate {
+    transform: rotate(-90deg);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.header-container .menu-searchbar {
+    margin-right: 25px;
+    display: flex;
+    padding-top: 18px;
+    margin-top: 18px;
+}
+
+.header-container .menu-container a {
+    margin-right: 50px;
+}
+
+.header-container .menu-searchbar button {
+    border-style: none;
+    background-color: white;
+    background-color: #fcf7f3;
+}
+
+.header-container .menu-searchbar img {
+    width: 17px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.header-container .menu-searchbar input {
+    border: none;
+    border-bottom: 2px  solid black;
+    background-color: #fcf7f3;
+}
+
+.header-container .menu-searchbar input:focus {
+    outline: none;
+}
+
+.carouselSectionImg {
+    max-height: 750px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.littleText {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    background-color: white;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.littleText h5, .littleText .text-content {
+    text-align: center;
+}
+
+.littleText h5 {
+    font-weight: bold;
+}
+
+.littleText .text-content span {
+    display: block;
+}
+
+#image {
     width: 250px;
     height: auto;
     margin-right: 20px;
@@ -6,6 +113,112 @@ img {
     transition: transform .2s; /* for animation */
 }
 
-.foodContainer {
+#image:hover {
+    transform: scale(0.95); /* der zoomfaktor */
+}
 
+.foodContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.img-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.header-test {
+    height: 80vh;
+}
+
+.foodContainer-h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.irgendwasKA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height : 370px;
+    width: 100%;
+}
+
+.carousel-caption {
+    /* Fügt einen halbdurchsichtigen schwarzen Hintergrund hinzu (RGBA) */
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+/* Optional: Verbessert die Lesbarkeit des Textes (ist in Bootstrap meist schon weiß) */
+.carousel-caption h3,
+.carousel-caption p {
+    color: white; /* Stellt sicher, dass der Text weiß ist */
+}
+
+
+.socials-box {
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 50px; /*Abrundungen der Border*/
+    background-color: #6BC1C7; /* #294D63 */
+
+    margin-top: 150px;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logo-container img {
+    width: 350px;
+}
+
+.insta img{
+    width: 70px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.x img{
+    width: 50px;
+    height: auto;
+}
+
+.youtube img{
+    width: 70px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.footer-container {
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fceeda;
+    height : 370px;
+    width: 100%;
 }
