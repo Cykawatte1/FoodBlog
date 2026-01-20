@@ -1,16 +1,18 @@
 import FoodContainer from "./FoodContainer.tsx";
 import Socials from "./Socials.tsx";
+import CarouselSection from "./CarouselSection.tsx";
 
 export default function MainSection() {
     return(
         <>
+            <CarouselSection />
             <div className={"littleText"}>
                 <h5>
                     Freut mich, dass du hier bist!
                 </h5>
                 <div className={"text-content"}>
                     <span>Wenn du auf der Suche nach den unterschiedlichsten Rezespanten bist,</span>
-                    <span>egal ob Vegan, Nachspeise oder proteinreich, hier wirst du etwas</span>
+                    <span>egal ob vegan oder  vielleicht proteinreich, hier wirst du etwas</span>
                     <span>passendes für dich finden, das versichere ich dir!</span>
                 </div>
             </div>
@@ -23,7 +25,7 @@ export default function MainSection() {
                 <p>Hier soll irgendwas noch hinkommen...</p>
             </div>
             <div className={"foodContainer-h2"}>
-                <h2>Für die weihnachtliche Stimmung </h2>
+                <h2> Leckere vegane Rezepte, passend zum Veganuary.. </h2>
             </div>
             <FoodContainer />
             <Socials/>

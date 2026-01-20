@@ -1,4 +1,4 @@
-import CarouselSection from "./CarouselSection.tsx";
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return(
@@ -11,16 +11,15 @@ export default function Header() {
             <div className="menu-searchbar">
 
                 <div className="menu-container">
-                    <a href="index.html">Startseite</a>
-                    <a href="rezepte.html">Rezepte</a>
-                    <a href="texte.html">Texte</a>
-                    <a href="aboutme.html">Über mich</a>
+                    <Link to={"/"}>Startseite</Link>
+                    <Link to={"/Rezept"}>Rezepte</Link>
+                    <Link to={"/Texte"}>Texte</Link>
+                    <Link to={"/About_me"}>Über mich</Link>
                 </div>
                 <input type="search" name="search" placeholder="Search" />
                     <button className="search-button"><img src="./src/assets/lupe.png" /></button>
             </div>
         </div>
-            <CarouselSection />
         </div>
         </>
     )

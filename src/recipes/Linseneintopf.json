@@ -1,0 +1,43 @@
+{
+  "id": "Veganer_Linseneintopf",
+  "title": "Veganer Linseneintop",
+  "img": "./src/assets/rezept8.jpg",
+  "stats": {
+    "duration": "1Std.",
+    "difficulty": 1,
+    "type": "Hauptspeise"
+  },
+  "ingredients": [
+    "250g Berglinsen",
+    "300 g Kartoffeln, festkochend",
+    "250 g Möhren",
+    "50 g Knollensellerie",
+    "1 Zwiebel, mittelgroß",
+    "1 Knoblauchzehe",
+    "1 Liter Gemüsebrühe",
+    "4 EL Olivenöl",
+    "1 EL Weißweinessig",
+    "Salz, Pfeffer, Zucker",
+    "Petersilie (gehackt)",
+    "Vegane Wiener Würstchen"
+  ],
+  "instructions": [
+    "Zuerst bringst Du in einem großen Topf (die Linsen schäumen gerne auf und das Wasser kann überlaufen) 750 ml Wasser ohne Salz zum kochen und köchelst darin auf kleiner Hitze 20 Minuten mit oder ohne Deckel die 250 g Berglinsen. Wenn Dich der Schaum stört, kannst Du diesen nach Belieben abschöpfen. Nach der Garzeit das Kochwasser abgießen und die vorgekochten Linsen zur Seite stellen.Dein Gewürzsäckchen kannst Du jetzt auch schon packen. Du gibst in einen Teebeutel (der mit Küchengarn verschnürt wird) oder in ein Tee-Ei folgendes: 1 Lorbeerblatt (bitte knicken damit sich die Aromen besser entfalten), 1 TL schwarze Pfefferkörner, 1 Wacholderbeere, 2 Nelken.",
+    "Während die Linsen kochen schälst Du die 1 Zwiebel und die 1 Knoblauchzehe und schneidest sie fein, schälst die 50 g Knollensellerie, die 300 g Kartoffeln und die 250 g Möhren und schneidest sie in kleine Würfel.",
+    "Jetzt lässt Du 1,5 EL Butterschmalz in einem Topf schmelzen und dünstest die Zwiebeln gemeinsam mit Knoblauch auf sanfter Stufe an.",
+    "Dann gibst die Möhren, Kartoffeln und den Sellerie dazu und dünstest alles gemeinsam für ca. 2 Minuten.",
+    "Im Anschluss löscht Du mit 1 Liter Gemüsebrühe ab, gibst die vorgekochten, abgesiebten Linsen hinein sowie das Gewürzsäckchen und kochst die Suppe auf. Bei mittlerer Hitze für 15-20 Minuten ohne Deckel leicht köcheln lassen.",
+    "Zum Schluss entfernst Du das Gewürzsäckchen und schmeckst die Suppe nach Belieben mit Salz, Pfeffer, Zucker und Essig ab. Wahlweise kannst Du im Eintopf auch Wiener Würstchen, ganz oder in Stücken, erwärmen.",
+    "Mit der gehackten Petersilie garnieren."
+  ],
+  "hints": [
+    "Wenn man Linsen mit Salz kocht werden sie überhaupt nicht oder ungleichmäßig weich, deshalb gebe ich in diesem Schritt kein Salz hinzu. Grundsätzlich koche ich sie hierfür vor, weil ihre Garzeit länger ist als die der restlichen Zutaten. Ein weiterer Vorteil vom Vorkochen ist, dass man sich das auswaschen spart. Übrigens: Bereits länger gelagerte Linsen brauchen auch länger um gar zu werden.",
+    "Außerdem: Entscheide selbst, ob nach 15 oder 20 Minuten die Zutaten den Garpunkt erreichthaben, den Du persönlich magst."
+  ],
+  "nutritions": [
+    2055,
+    233,
+    101,
+    77.6
+  ]
+}
