@@ -5,23 +5,23 @@ export default function Socials() {
                 <div className="socials-box">
 
                     <div className="insta">
-                        <a href="http://instagramm.com"><img src="./src/assets/insta.svg"/></a>
+                        <a href="http://instagramm.com"><img src={`${import.meta.env.BASE_URL}insta.svg`}/></a>
                     </div>
 
 
                     <div className="x">
-                        <a href="http://x.com"><img src="./src/assets/x.svg"/></a>
+                        <a href="http://x.com"><img src={`${import.meta.env.BASE_URL}x.svg`}/></a>
                     </div>
 
                     <div className="youtube">
-                        <a href="http://youtube.com"><img src="./src/assets/youtube.svg"/></a>
+                        <a href="http://youtube.com"><img src={`${import.meta.env.BASE_URL}youtube.svg`}/></a>
                     </div>
 
                 </div>
             </div>
 
             <div className="logo-container">
-                <img src="./src/assets/FullLogo_Transparent.png" className="logo"/>
+                <img src={`${import.meta.env.BASE_URL}FullLogo_Transparent.png`} className="logo"/>
             </div>
         </>
     )

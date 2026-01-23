@@ -17,7 +17,7 @@ export default function Header() {
                     <Link to={"/About_me"}>Über mich</Link>
                 </div>
                 <input type="search" name="search" placeholder="Search" />
-                    <button className="search-button"><img src="./src/assets/lupe.png" /></button>
+                    <button className="search-button"><img src={`${import.meta.env.BASE_URL}lupe.png`} /></button>
             </div>
         </div>
         </div>

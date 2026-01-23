@@ -1,7 +1,7 @@
 {
   "id": "Veganer_Linseneintopf",
   "title": "Veganer Linseneintop",
-  "img": "./src/assets/rezept8.jpg",
+  "img": "rezept8.jpg",
   "stats": {
     "duration": "1Std.",
     "difficulty": 1,
