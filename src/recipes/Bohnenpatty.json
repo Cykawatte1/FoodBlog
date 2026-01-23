@@ -1,0 +1,45 @@
+{
+  "id": "Bohnenpatty_Blumenkohlstampf",
+  "title": "Bohnenpatty mit Blumenkohlstampf",
+  "img": "./src/assets/rezept10(2).jpg",
+  "stats": {
+    "duration": "1Std. 30Min.",
+    "difficulty": 3,
+    "type": "Hauptspeise"
+  },
+  "ingredients": [
+    "2 EL Leinsamen (gemahlen oder geschrotet)",
+    "50 g Haferflocken",
+    "50 g Nüsse",
+    "50 g Sonnenblumenkerne",
+    "1 Dose schwarze Bohnen",
+    "1 Zwiebel, gehackt",
+    "3 Knoblauchzehen, gehackt",
+    "2 EL Sojasauce",
+    "2 EL Tahini Sesammus",
+    "2 EL Tomatenmark",
+    "750 g Blumenkohl",
+    "2 EL Hefeflocken",
+    "2 TL Tahini Sesammus",
+    "50-100 ml Pflanzendrink"
+  ],
+  "instructions": [
+    "Leinsamen mit 4-6 EL Wasser verrühren und kurz zur Seite stellen.",
+    "Haferflocken, Nüsse und Sonnenblumenkerne im Mixer oder der Küchenmaschine zerkleinern. ",
+    "Bohnen abgießen, abspülen und abtropfen. Anschließend in eine große Schüssel geben und die Bohnen mit einem Stampfer oder einer Gabel zerdrücken.",
+    "Alle Zutaten fürs Patty hinzufügen und gut kneten.",
+    "Die Patties werden nun geformt und auf ein mit Backpapier ausgelegtes Backblech gegeben.",
+    "30-35 Minuten bei 180°C Umluft backen: Den Ofen nicht vorheizen. Einmal die Burger nach 15 Minuten wenden und weitere 15 Minuten backen. In der Zwischenzeit kann der Blumenkohlstampf zubereitet werden.",
+    "Blumenkohl 10 Minuten garen (z.B. über Dampf garen oder mit etwas Wasser dünsten), bis er zart ist. ",
+    "Hefeflocken, Tahini und wenn gewünscht gerösteten Knoblauch, Röstzwiebeln oder Zitronensaft zufügen und mit einem Stampfer zu einem Püree verarbeiten. Nach Belieben mit Kräutern servieren."
+  ],
+  "hints": [
+
+  ],
+  "nutritions": [
+    1650,
+    135,
+    75,
+    85
+  ]
+}

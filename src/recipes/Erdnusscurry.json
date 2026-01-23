@@ -1,0 +1,40 @@
+{
+  "id": "Veganes_Erdnusscurry",
+  "title": "Veganes Erdnusscurry",
+  "img": "./src/assets/rezept9(3).jpg",
+  "stats": {
+    "duration": "1Std. 30Min.",
+    "difficulty": 3,
+    "type": "Hauptspeise"
+  },
+  "ingredients": [
+    "2-3 mittlere Süßkartoffeln, geschält und gewürfelt",
+    "500 g Dicke Bohnen Tiefgekühlt",
+    "1 Glas Kichererbsen, abgespült",
+    "1 Zwiebel, gewürfelt",
+    "2 Stücke Räuchertofu",
+    "2-3 EL Erdnussmus",
+    "3 EL Ajvar",
+    "50-100 g Tomatenmark",
+    "ca. 750 ml kochendes Wasser",
+    "2 TL Currypaste",
+    "2 EL Süßungsmittel z.B. Agavendicksaft oder Dattelsirup",
+    "1 Hand geröstete Erdnüsse oder Cashews für den Extra-Crunch"
+  ],
+  "instructions": [
+    "Süßkartoffeln in einer großen Pfanne oder Topf 5 min anbraten.",
+    "Zwiebeln und Kichererbsen hinzufügen und weiter bräunen.",
+    "Dicke Bohnen und Currypaste hinzu und alles gut durchrühren, 2 min braten.",
+    "Restliche Zutaten zufügen und alles für 5-10 Minuten einköcheln. Wasser nach Belieben Schritt für Schritt zufügen.",
+    "Abschmecken und vor dem Umfüllen eine kleine Portion naschen, während alles abkühlt"
+  ],
+  "hints": [
+
+  ],
+  "nutritions": [
+    2486,
+    263,
+    151,
+    83
+  ]
+}

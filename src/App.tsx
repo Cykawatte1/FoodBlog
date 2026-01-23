@@ -7,6 +7,8 @@ import {AboutMe} from "./AboutMe.tsx";
 import Recipe from "./Recipe.tsx";
 import type {RecipeData} from "./Recipe.tsx";
 import Linseneintop from "./recipes/Linseneintopf.json"
+import Erdnusscurry from "./recipes/Erdnusscurry.json"
+import Bohnenpatty from "./recipes/Bohnenpatty.json"
 
 export default function App() {
 
@@ -24,6 +26,8 @@ export default function App() {
             <Route path="/Texte" element={<Texts/>}/>
             <Route path="/About_me" element={<AboutMe/>}/>
             <Route path="/Veganer_Linseneintopf" element={<Recipe recipe={Linseneintop as RecipeData}/>}/>
+            <Route path="/Veganes_Erdnusscurry" element={<Recipe recipe={Erdnusscurry as RecipeData}/>}/>
+            <Route path="/Bohnenpatty_Blumenkohlstampf" element={<Recipe recipe={Bohnenpatty as RecipeData}/>}/>
         </Routes>
 
 
