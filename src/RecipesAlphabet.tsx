@@ -1,6 +1,5 @@
 import Card from "./Card.tsx"
 import Linseneintopf from "./recipes/Linseneintopf.json";
-import Header from "./Header.tsx";
 
 interface LetterProps {
     letter: string;
