@@ -9,6 +9,7 @@ import type {RecipeData} from "./Recipe.tsx";
 import Linseneintop from "./recipes/Linseneintopf.json"
 import Erdnusscurry from "./recipes/Erdnusscurry.json"
 import Bohnenpatty from "./recipes/Bohnenpatty.json"
+import ScrollToTop from "./ScrollToTop.tsx";
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
 
   return (
     <>
+        <ScrollToTop/>
         <Routes>
             <Route element={<Homepage />}>
             <Route path="/" element={<MainSection />} />
