@@ -1,0 +1,42 @@
+{
+  "id": "Chilli_Sin_Carne",
+  "title": "Chilli sin Carne",
+  "img": "rezept11(2).jpg",
+  "stats": {
+    "duration": "30Min.",
+    "difficulty": 2,
+    "type": "Hauptspeise"
+  },
+  "ingredients": [
+    "750ml Gemüsebrühe",
+    "250g rote linsen",
+    "3 Knoblauchzehen",
+    "2 Paprikas",
+    "1 große Zwiebel",
+    "1 Dose Kidneybohnen (Abtropfgewicht 500g)",
+    "1 Dose Mais (Abtropfgewicht 285g",
+    "1 Dose stückige Tomaten (Mutti)",
+    "1 Dose passierte Tomaten (Mutti)",
+    "3 EL olivenöl",
+    "2 EL Tomatenmark",
+    "Paprikapulver mild",
+    "Kreuzkümmel"
+  ],
+  "instructions": [
+    "Die 250 g getrocknete rote Linsen gibst Du in ein Sieb, wäschst sie mit kaltem Wasser ab und lässt sie abtropfen. Die Kidneybohnen gibst Du in ein weiteres Sieb und wäschst sie ab (so werden sie bekömmlicher), den Mais kannst Du im selben Sieb abtropfen lassen. Die 2 Paprikaschoten und die 1 Peperoni wäschst Du ab, entkernst und schneidest sie in feine Würfel. Die 1 Zwiebel und die 3 Knoblauchzehen schälst Du und würfelst sie fein. ",
+    "3 EL Olivenöl erhitzt Du nun in einem großen Topf und lässt darin die Zwiebelwürfel kurz alleine andünsten. Dann gibst Du die Knoblauch-, Peperoni- und Paprikawürfel hinein und lässt alles gemeinsam 2-3 Minuten andünsten. ",
+    "Jetzt gibst Du noch die 250 g abgetropften roten Linsen hinein sowie 2 EL Tomatenmark, verrührst alles gut miteinander und lässt es kurz andünsten. ",
+    "Jetzt löschst Du mit 750 ml Gemüsebrühe ab und gibst die 400 g stückigen und die 400 g passierten Tomaten dazu sowie die Kidneybohnen und den Mais. Außerdem würzt Du mit 2 TL Paprikapulver, 1,5 TL Kreuzkümmel, 1 TL Salz sowie 1 Msp. Cayennepfeffer und 1 Prise Zucker.",
+    "Alles gut miteinander verrühren und mit halb geöffnetem Deckel bei mittlerer Hitze für 15 Minuten köcheln lassen. Ab und zu umrühren. Zum Schluss noch einmal abschmecken.",
+    "Mit Petersilie oder Koriander sowie Limette und Créme Fraîche servieren. Für mehr Schärfe bieten sich Chili-Flocken oder frisch aufgeschnittene Chilis an."
+  ],
+  "hints": [
+
+  ],
+  "nutritions": [
+    2250,
+    303,
+    129,
+    41
+  ]
+}

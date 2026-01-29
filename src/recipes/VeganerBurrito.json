@@ -1,0 +1,39 @@
+{
+  "id": "Veganer_Burrito",
+  "title": "Veganer Burrito",
+  "img": "rezept12(4).jpg",
+  "stats": {
+    "duration": "1Std.",
+    "difficulty": 2,
+    "type": "Hauptspeise"
+  },
+  "ingredients": [
+    "6 Wraps",
+    "1/4 Eisbergsalat",
+    "2 Avocados",
+    "1 Limette",
+    "200 g Basmatireis",
+    "150 g Sojagranulat",
+    "1 Dose Kidneybohnen",
+    "1 Dose Mais",
+    "1 TL Tomatenmark",
+    "1 Dose passierte Tomaten",
+    "3 EL Sojasoße",
+    "1 TL Paprikapulver edelsüß",
+    "1 TL Cumin"
+  ],
+  "instructions": [
+    "Reis und die doppelte Menge gesalzenes Wasser in einen Topf geben und zum Kochen bringen. Ca. 20 Minuten mit Deckel köcheln lassen, bis der Reis das Wasser aufgesogen hat. Wenn der Reis danach noch nicht bissfest ist, noch etwas Wasser dazugeben und erneut einköcheln lassen. Sobald der Reis gar ist, den Topf vom Herd nehmen, Limettensaft und Limettenabrieb dazugeben und unterrühren. Den Reis etwas abkühlen lassen.",
+    "Das Sojagranulat leicht anbraten, dann mit Sojasoße ablöschen. Anschließend kurz weiterbraten lassen und mit Salz, Pfeffer, Cumin und Paprikapulver abschmecken. Daraufhin Tomatenmark dazugeben. Anschließend Kidneybohnen, Mais und Dosentomaten dazu geben. ",
+    "Alle Zutaten sind vorbereitet. Nehmt euch einen Wrap und belegt das untere Drittel mit Limettenreis, Eisbergsalat und Guacamole. Fest zusammenrollen und am besten direkt in Papier oder Alufolie einwickeln. Auf Wunsch könnt ihr die Burritos auch noch nicht einwickeln, sondern nochmal in einer Pfanne oder auf dem Grill kurz anbraten."
+  ],
+  "hints": [
+
+  ],
+  "nutritions": [
+    3390,
+    479,
+    157,
+    77
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Vegane_Lasagne",
+  "title": "Vegane Lasagne",
+  "img": "rezept13(3).jpg",
+  "stats": {
+    "duration": "1Std. 30min.",
+    "difficulty": 4,
+    "type": "Hauptspeise"
+  },
+  "ingredients": [
+    "300 g Sojagranulat",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "2 Dosen passierte Tomaten",
+    "1 TL Tomatenmark",
+    "3 EL Sojasoße",
+    "1 TL Paprikapulver edelsüß",
+    "1 TL Cumin",
+    "500 ml Pflanzenmilch",
+    "40 g Margarine",
+    "30 g Mehl",
+    "1 Packung veganer Gratinkäse",
+    "1 Packung Lasagnenplatten"
+
+  ],
+  "instructions": [
+    "Das Sojagranulat in Öl leicht braun anbraten. Daraufhin mit Sojasoße ablöschen und mit Salz, Pfeffer, Paprikapulver und Cumin abschmecken.",
+    "Rühre das Tomatenmark unter, würfel anschließend die Zwiebeln und den Knoblauch und gebe ihn hinzu. Gib anschließend die Dosentomaten hinzu und köchel unter niedriger Stufe",
+    "Schmilz die Margarine in einem Topf. Rühre das Mehl mit einem Schneebesen ein, bis es Blasen wirft, aber nicht braun wird. Gieße die Pflanzenmilch nach und nach dazu und rühre ständig, damit keine Klumpen entstehen.",
+    "Lass die Sauce einmal kurz aufkochen, bis sie  dickflüssig wird. Würze sie kräftig mit Salz.",
+    "Heize den Ofen auf 180 Grad Ober-/Unterhitze. Schichte in einer Auflaufform eine dünne Schicht Bolognese, dann Lasagnenplatten. Anschließend immer abwechselnd Bolognese, Bechamel und Lasagnenplatte. Bestreue zum Schluss den Auflauf mit dem Gratinkäse.",
+    "Schiebe die Lasagne in den Ofen und warte 30 Minuten. Lasse es dir schmecken!"
+  ],
+  "hints": [
+  ],
+  "nutritions": [
+    2925,
+    312,
+    212,
+    79
+  ]
+}

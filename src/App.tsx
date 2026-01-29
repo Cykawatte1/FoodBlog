@@ -9,6 +9,10 @@ import type {RecipeData} from "./Recipe.tsx";
 import Linseneintop from "./recipes/Linseneintopf.json"
 import Erdnusscurry from "./recipes/Erdnusscurry.json"
 import Bohnenpatty from "./recipes/Bohnenpatty.json"
+import ChilliSinCarne from "./recipes/ChilliSinCarne.json"
+import VeganerBurrito from "./recipes/VeganerBurrito.json"
+import VeganeLasagne from "./recipes/VeganeLasagne.json"
+
 import ScrollToTop from "./ScrollToTop.tsx";
 
 export default function App() {
@@ -30,6 +34,9 @@ export default function App() {
             <Route path="/Veganer_Linseneintopf" element={<Recipe recipe={Linseneintop as RecipeData}/>}/>
             <Route path="/Veganes_Erdnusscurry" element={<Recipe recipe={Erdnusscurry as RecipeData}/>}/>
             <Route path="/Bohnenpatty_Blumenkohlstampf" element={<Recipe recipe={Bohnenpatty as RecipeData}/>}/>
+            <Route path="/Chilli_Sin_Carne" element={<Recipe recipe={ChilliSinCarne as RecipeData}/>}/>
+            <Route path="/Veganer_Burrito" element={<Recipe recipe={VeganerBurrito as RecipeData}/>}/>
+            <Route path="/Vegane_Lasagne" element={<Recipe recipe={VeganeLasagne as RecipeData}/>}/>
         </Routes>
 
 
