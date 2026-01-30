@@ -18,7 +18,7 @@ export default function Card({imgUrl, textContent, description, recipe} : CardPr
                     <h5 className={"card-title"}>{textContent}</h5>
                     <p className={'card-text'}>{description}</p>
                     {/*<a href={"#"} className={"btn btn-primary"}>Go somewhere</a>*/}
-                    <Link to={`/${recipe.id}`} className={"btn btn-primary"}>Go somewhere</Link>
+                    <Link to={`/${recipe.id}`} className={"btn btn-primary"}>Zum Rezept</Link>
                 </div>
             </div>
         </>

@@ -14,6 +14,9 @@ export interface RecipeData {
     instructions: string[];
     hints: string[];
     nutritions: number[];
+    imgUrl: string;
+    textContent: string;
+    description: string;
 }
 
 

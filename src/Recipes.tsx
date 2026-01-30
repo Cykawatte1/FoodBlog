@@ -1,5 +1,12 @@
 import Header from "./Header.tsx";
 import RecipesAlphabet from "./RecipesAlphabet.tsx";
+import Linseneintopf from "./recipes/Linseneintopf.json"
+import Erdnusscurry from "./recipes/Erdnusscurry.json"
+import Bohnenpatty from "./recipes/Bohnenpatty.json"
+import ChilliSinCarne from "./recipes/ChilliSinCarne.json"
+import VeganerBurrito from "./recipes/VeganerBurrito.json"
+import VeganeLasagne from "./recipes/VeganeLasagne.json"
+import MissingNo from "./recipes/MissingNo.json"
 
 export default function Recipes() {
     return(
@@ -42,32 +49,32 @@ export default function Recipes() {
                         </div>
                     </div>
                     <div className="recipes-body">
-                        <RecipesAlphabet letter={"A"} />
-                        <RecipesAlphabet letter={"B"} />
-                        <RecipesAlphabet letter={"C"} />
-                        <RecipesAlphabet letter={"D"} />
-                        <RecipesAlphabet letter={"E"} />
-                        <RecipesAlphabet letter={"F"} />
-                        <RecipesAlphabet letter={"G"} />
-                        <RecipesAlphabet letter={"H"} />
-                        <RecipesAlphabet letter={"I"} />
-                        <RecipesAlphabet letter={"J"} />
-                        <RecipesAlphabet letter={"K"} />
-                        <RecipesAlphabet letter={"L"} />
-                        <RecipesAlphabet letter={"M"} />
-                        <RecipesAlphabet letter={"N"} />
-                        <RecipesAlphabet letter={"O"} />
-                        <RecipesAlphabet letter={"P"} />
-                        <RecipesAlphabet letter={"Q"} />
-                        <RecipesAlphabet letter={"R"} />
-                        <RecipesAlphabet letter={"S"} />
-                        <RecipesAlphabet letter={"T"} />
-                        <RecipesAlphabet letter={"U"} />
-                        <RecipesAlphabet letter={"V"} />
-                        <RecipesAlphabet letter={"W"} />
-                        <RecipesAlphabet letter={"X"} />
-                        <RecipesAlphabet letter={"Y"} />
-                        <RecipesAlphabet letter={"Z"} />
+                        <RecipesAlphabet letter={"A"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"B"} recipes={[VeganerBurrito, Bohnenpatty]}/>
+                        <RecipesAlphabet letter={"C"} recipes={[ChilliSinCarne]}/>
+                        <RecipesAlphabet letter={"D"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"E"} recipes={[Erdnusscurry]}/>
+                        <RecipesAlphabet letter={"F"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"G"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"H"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"I"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"J"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"K"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"L"} recipes={[VeganeLasagne, Linseneintopf]}/>
+                        <RecipesAlphabet letter={"M"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"N"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"O"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"P"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"Q"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"R"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"S"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"T"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"U"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"V"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"W"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"X"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"Y"} recipes={[MissingNo]}/>
+                        <RecipesAlphabet letter={"Z"} recipes={[MissingNo]}/>
                     </div>
                 </div>
             </div>

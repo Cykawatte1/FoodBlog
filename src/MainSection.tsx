@@ -18,14 +18,14 @@ export default function MainSection() {
             </div>
 
             <div className={"foodContainer-h2"}>
-                <h2>Schon probiert ?</h2>
+                <h2> Leckere vegane Rezepte, passend zum Veganuary.. </h2>
             </div>
             <FoodContainer />
             <div className={"irgendwasKA"}>
                 <p>Hier soll irgendwas noch hinkommen...</p>
             </div>
             <div className={"foodContainer-h2"}>
-                <h2> Leckere vegane Rezepte, passend zum Veganuary.. </h2>
+                <h2>Schon probiert ?</h2>
             </div>
             <FoodContainer />
             <Socials/>

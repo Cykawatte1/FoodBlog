@@ -1,0 +1,28 @@
+{
+  "id": "MissingNo",
+  "title": "MissingNO",
+  "img": "missingNo.jpeg",
+  "stats": {
+    "duration": "1Std.",
+    "difficulty": 0,
+    "type": "???"
+  },
+  "ingredients": [
+    "A portion of Missing.."
+  ],
+  "instructions": [
+    "MissingNo spotted!"
+  ],
+  "hints": [
+    "missing.."
+  ],
+  "nutritions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "imgUrl": "missingNo.jpeg",
+  "textContent": "A missing number",
+  "description": "scary.."
+}

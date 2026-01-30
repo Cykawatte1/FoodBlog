@@ -6,8 +6,6 @@ import ChilliSinCarne from "./recipes/ChilliSinCarne.json"
 import VeganerBurrito from "./recipes/VeganerBurrito.json"
 import VeganeLasagne from "./recipes/VeganeLasagne.json"
 
-
-
 export default function FoodContainer() {
     return(
         <>
