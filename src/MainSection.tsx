@@ -22,7 +22,7 @@ export default function MainSection() {
             </div>
             <FoodContainer />
             <div className={"irgendwasKA"}>
-                <p>Hier soll irgendwas noch hinkommen...</p>
+                <p>Tipp: Viele dieser Gerichte lassen sich perfekt für die Woche vorbereiten (Meal Prep).</p>
             </div>
             <div className={"foodContainer-h2"}>
                 <h2>Schon probiert ?</h2>

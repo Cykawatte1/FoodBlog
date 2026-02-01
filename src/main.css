@@ -2,13 +2,17 @@
 
 html, body {
     font-family: "Noto Sans", sans-serif !important;
-    background-color: #fcf7f3 !important;
+    background-color: #d2f5bf !important;
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+.header-container {
+
 }
 
 .header-container a {
@@ -32,7 +36,7 @@ body {
     font-size: 30px;
     border-style: none;
     margin-top: 10px;
-    background-color: #fcf7f3;
+    background-color: #d2f5bf;
     transition: transform 0.3s ease;
 }
 
@@ -59,8 +63,7 @@ body {
 
 .header-container .menu-searchbar button {
     border-style: none;
-    background-color: white;
-    background-color: #fcf7f3;
+    background-color:#d2f5bf;
 }
 
 .header-container .menu-searchbar img {
@@ -73,7 +76,7 @@ body {
 .header-container .menu-searchbar input {
     border: none;
     border-bottom: 2px  solid black;
-    background-color: #fcf7f3;
+    background-color: #d2f5bf;
 }
 
 .header-container .menu-searchbar input:focus {
@@ -221,7 +224,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fceeda;
+    background-color: #e4fcd7;
     height : 370px;
     width: 100%;
 }
@@ -240,8 +243,34 @@ body {
     justify-content: center;
 }
 
+.recipes-header .recipes-header-alphabet {
+    margin-top: 40px;
+    padding-right: 15px;
+    padding-left: 20px;
+    padding-top: 3px;
+    width: 50vw;
+    height: 5vh;
+    background-color: #30833e;
+    box-shadow:
+            0 10px 20px rgba(48, 131, 62, 0.3), /* Weicher, großer Schatten */
+            0 6px 6px rgba(48, 131, 62, 0.2);
+    border-radius: 10px;
+}
+
+.recipes-header .recipes-header-alphabet a {
+    margin-right: 10px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.recipes-header .recipes-header-alphabet a:hover {
+    color: #6BC1C7;
+    border-radius: 50px;
+}
+
 .recipes-container {
-    background-color: #fcf7f3;
+    background-color: #e4fcd7;
     width: 80vw;
 }
 
@@ -262,37 +291,20 @@ body {
     flex-wrap: wrap;
 }
 
-.recipes-header-searchbar {
-    margin-right: 25px;
-    display: flex;
-    padding-top: 18px;
-    margin-top: 18px;
-}
-
-.recipes-header-searchbar input {
-    border: none;
-    border-bottom: 2px  solid black;
-    background-color: #fcf7f3;
-}
-
 .recipes-header-searchbar button {
     border-style: none;
-    background-color: white;
-    background-color: #fcf7f3;
+    background-color: #d2f5bf;
 }
 
-.recipes-header-searchbar img {
-    width: 17px;
-    height: auto;
-    margin-top: 5px;
-    margin-left: 5px;
+.recipe-container {
+    background-color: white;
 }
 
 .recipe-container .recipe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fceeda;
+    background-color: #e4fcd7;
     padding-right: 5vw;
     padding-left: 5vw;
     margin-right: 10vw;
@@ -363,3 +375,60 @@ body {
 .recipe-container .instructions p {
     margin-top: 40px;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.texts-container {
+    background-color: #e4fcd7;
+    width: 80vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    min-height: 100vh;
+}
+
+.single-text {
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.single-text .text-container-attributes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-text .text-container-attributes p {
+    margin-right: 10px;
+}
+
+.single-text .text-container-attributes h1 {
+    margin-left: 10px;
+}
+
+.single-text .text-container-attributes-two p {
+    margin-left: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;    /* Begrenzt auf exakt 2 Zeilen */
+    -webkit-box-orient: vertical;
+    overflow: hidden;         /* Versteckt den Rest */
+    text-overflow: ellipsis;  /* Fügt die "..." automatisch am Ende ein */
+}
+
+.single-text .single-text-link {
+    text-decoration: none;
+    color: black;
+}
+
+.single-text:hover {
+    transform: scale(0.98); /* der zoomfaktor */
+}
+
+.text-container {
+    min-height: 10vh;
+}
+

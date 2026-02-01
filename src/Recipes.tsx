@@ -43,10 +43,6 @@ export default function Recipes() {
                             <a href={"#Y"}>Y</a>
                             <a href={"#Z"}>Z</a>
                         </div>
-                        <div className="recipes-header-searchbar">
-                            <input type={"search"} name={"search"} placeholder={"Search.."}/>
-                            <button type={"button"}><img src={"./src/assets/lupe.png"}/></button>
-                        </div>
                     </div>
                     <div className="recipes-body">
                         <RecipesAlphabet letter={"A"} recipes={[MissingNo]}/>

@@ -2,9 +2,10 @@ import Recipes from "./Recipes.tsx";
 import { Routes, Route } from 'react-router-dom'
 import Homepage from "./Homepage.tsx";
 import MainSection from "./MainSection.tsx";
-import {Texts} from "./Texts.tsx";
+import Texts from "./Texts.tsx";
 import {AboutMe} from "./AboutMe.tsx";
 import Recipe from "./Recipe.tsx";
+import SingleText from "./SingleText.tsx";
 import type {RecipeData} from "./Recipe.tsx";
 import Linseneintopf from "./recipes/Linseneintopf.json"
 import Erdnusscurry from "./recipes/Erdnusscurry.json"
@@ -13,8 +14,9 @@ import ChilliSinCarne from "./recipes/ChilliSinCarne.json"
 import VeganerBurrito from "./recipes/VeganerBurrito.json"
 import VeganeLasagne from "./recipes/VeganeLasagne.json"
 import MissingNo from "./recipes/MissingNo.json"
-
+import veganuaryExp from "./texts/veganuaryExp.json"
 import ScrollToTop from "./ScrollToTop.tsx";
+import type {textData} from "./SingleText.tsx";
 
 export default function App() {
 
@@ -29,7 +31,6 @@ export default function App() {
             </Route>
 
             <Route path="/Rezept" element={<Recipes/>} />
-            {/*<Route path="/Beispiel_Rezept" element={<Recipe/>} />*/}
             <Route path="/Texte" element={<Texts/>}/>
             <Route path="/About_me" element={<AboutMe/>}/>
             <Route path="/Veganer_Linseneintopf" element={<Recipe recipe={Linseneintopf as RecipeData}/>}/>
@@ -39,6 +40,7 @@ export default function App() {
             <Route path="/Veganer_Burrito" element={<Recipe recipe={VeganerBurrito as RecipeData}/>}/>
             <Route path="/Vegane_Lasagne" element={<Recipe recipe={VeganeLasagne as RecipeData}/>}/>
             <Route path="/missingNo" element={<Recipe recipe={MissingNo as RecipeData}/>}/>
+            <Route path="/veganuaryExp" element={<SingleText textJSON={veganuaryExp as textData}/>}/>
         </Routes>
 
 
