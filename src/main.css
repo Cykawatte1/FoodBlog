@@ -432,3 +432,25 @@ body {
     min-height: 10vh;
 }
 
+.about-me {
+    background-color: #e4fcd7;
+    width: 80vw;
+}
+
+.about-me-description {
+    display: flex;
+    align-items: flex-start; /* Damit das Bild oben bündig ist */
+}
+
+.about-me img {
+    width: 600px;
+    height: 500px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.about-me p {
+    padding-left: 40px;
+    padding-top: 40px;
+}
