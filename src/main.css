@@ -6,6 +6,73 @@ html, body {
     scroll-behavior: smooth;
 }
 
+/* Der Side Drawer Grundzustand (unsichtbar links) */
+.side-drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #30833e; /* Passend zu deinem Grün */
+    z-index: 1000;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+
+    /* Verschiebung nach links außen */
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Wenn die Klasse 'open' hinzugefügt wird */
+.side-drawer.open {
+    transform: translateX(0);
+}
+
+/* Styling der Links im Drawer */
+.drawer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.drawer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.close-btn {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Abdunklungshintergrund */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+/* Mobile Optimierung: Desktop-Links verstecken, wenn nötig */
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -435,11 +502,22 @@ body {
 .about-me {
     background-color: #e4fcd7;
     width: 80vw;
+    min-height: 800px;
+
 }
 
 .about-me-description {
     display: flex;
     align-items: flex-start; /* Damit das Bild oben bündig ist */
+}
+
+.about-me-description p {
+    font-size: 1.1rem;      /* Etwas größer als Standard (1rem = meist 16px) */
+    line-height: 1.6;
+}
+
+.about-me-description h1 {
+    padding-bottom: 40px;
 }
 
 .about-me img {
