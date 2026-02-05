@@ -15,6 +15,7 @@ import VeganerBurrito from "./recipes/VeganerBurrito.json"
 import VeganeLasagne from "./recipes/VeganeLasagne.json"
 import MissingNo from "./recipes/MissingNo.json"
 import veganuaryExp from "./texts/veganuaryExp.json"
+import porridgeTxt from "./texts/porridge.json"
 import ScrollToTop from "./ScrollToTop.tsx";
 import type {textData} from "./SingleText.tsx";
 
@@ -41,6 +42,7 @@ export default function App() {
             <Route path="/Vegane_Lasagne" element={<Recipe recipe={VeganeLasagne as RecipeData}/>}/>
             <Route path="/missingNo" element={<Recipe recipe={MissingNo as RecipeData}/>}/>
             <Route path="/veganuaryExp" element={<SingleText textJSON={veganuaryExp as textData}/>}/>
+            <Route path="/porridgeTxt" element={<SingleText textJSON={porridgeTxt as textData}/>}/>
         </Routes>
 
 

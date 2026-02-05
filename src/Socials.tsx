@@ -14,7 +14,8 @@ export default function Socials() {
                     </div>
 
                     <div className="youtube">
-                        <a href="http://youtube.com"><img src={`${import.meta.env.BASE_URL}youtube.svg`}/></a>
+                        <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1">
+                        <img src={`${import.meta.env.BASE_URL}youtube.svg`}/></a>
                     </div>
 
                 </div>

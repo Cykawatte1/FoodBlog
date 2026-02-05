@@ -192,8 +192,8 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .img-pos {
@@ -379,7 +379,7 @@ body {
 }
 
 .recipe-container img{
-    width: 600px;
+    width: 800px;
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -524,11 +524,15 @@ body {
     width: 600px;
     height: 500px;
     padding-left: 40px;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-right: 40px;
 }
 
 .about-me p {
     padding-left: 40px;
     padding-top: 40px;
+}
+
+.text-container-attributes-two p {
+    white-space: pre-line;
 }

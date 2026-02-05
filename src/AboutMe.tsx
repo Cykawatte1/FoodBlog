@@ -22,7 +22,7 @@ export function AboutMe() {
 
                             Rezepte - Meine persönlichen Favoriten – gesund, nahrhaft und "informatiker-freundlich" (effizient und lecker).
 
-                            Texte: Gedanken zu Technik, Ernährung und wie man einen fitten Lebensstil im Studienalltag meistert.
+                            Zudem wirst du hier Gedanken, Meinungen und Fakten zu allem Rund um die Ernährung und Zubereitung finden, sowie wie man einen fitten Lebensstil im Studienalltag meistert.
 
 
 

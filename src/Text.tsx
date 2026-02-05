@@ -15,7 +15,7 @@ export default function text({ textJSON }: textProps) {
                         <p>{textJSON.date}</p>
                     </div>
                     <div className={"text-container-attributes-two"}>
-                        <p>{textJSON.text}</p>
+                        <p style={{ whiteSpace: 'pre-line' }}>{textJSON.text}</p>
                     </div>
                 </Link>
             </div>
