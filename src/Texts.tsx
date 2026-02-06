@@ -1,6 +1,5 @@
 import Header from "./Header.tsx";
 import Text from "./Text.tsx";
-import veganuaryExp from "./texts/veganuaryExp.json";
 import porridgeTxt from "./texts/porridge.json";
 
 export default function Texts() {
