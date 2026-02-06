@@ -10,7 +10,7 @@ export default function Texts() {
             <div className="background-white">
                 <div className={"text-container"}>
                     <div className={"texts-container"}>
-                        <Text textJSON={veganuaryExp} />
+                        {/*<Text textJSON={veganuaryExp} />*/}
                         <Text textJSON={porridgeTxt} />
                         <div className={"text-container"}>
                         </div>

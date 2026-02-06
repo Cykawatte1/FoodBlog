@@ -30,10 +30,10 @@ export default function Header() {
                             <Link to={"/About_me"}>Über mich</Link>
                         </div>
 
-                        <input type="search" name="search" placeholder="Search" />
-                        <button className="search-button">
-                            <img src={`${import.meta.env.BASE_URL}lupe.png`} alt="Suche" />
-                        </button>
+                        {/*<input type="search" name="search" placeholder="Search" />*/}
+                        {/*<button className="search-button">*/}
+                        {/*    <img src={`${import.meta.env.BASE_URL}lupe.png`} alt="Suche" />*/}
+                        {/*</button>*/}
                     </div>
                 </div>
             </div>
